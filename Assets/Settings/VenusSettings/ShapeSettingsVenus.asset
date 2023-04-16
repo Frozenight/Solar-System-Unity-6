@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cca19ad6cf81d874188b8a7f9e4e3237, type: 3}
+  m_Name: ShapeSettingsVenus
+  m_EditorClassIdentifier: 
+  planetRadius: 25.5
+  noiseLayers:
+  - enabled: 1
+    useFirstLayerAsMask: 1
+    noiseSettings:
+      filterType: 0
+      simpleNoiseSettings:
+        strength: 0.32
+        numLayers: 2
+        baseRougness: 0.75
+        rougness: 3.09
+        persistence: 1.91
+        center: {x: 0, y: 0, z: 0}
+        minValue: 1.74
+      ridgetNoiseSettings:
+        strength: 0
+        numLayers: 0
+        baseRougness: 0
+        rougness: 0
+        persistence: 0
+        center: {x: 0, y: 0, z: 0}
+        minValue: 0
+        weightMultiplayer: 0
