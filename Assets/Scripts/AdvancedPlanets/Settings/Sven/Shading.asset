@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dc781a665a4a49f09ef89610d5413ee, type: 3}
+  m_Name: Shading
+  m_EditorClassIdentifier: 
+  randomize: 0
+  seed: 0
+  terrainMaterial: {fileID: 2100000, guid: 0bb7c03d1e77c15478860eacad12dd5c, type: 2}
+  hasOcean: 1
+  oceanLevel: 1
+  oceanSettings: {fileID: 11400000, guid: 75b26eff3d3e26c439a235554b101115, type: 2}
+  shadingDataCompute: {fileID: 7200000, guid: 8f6c3d86008df43ca88b9d64cf8e0514, type: 3}
+  primaryColA: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 1}
+  secondaryColA: {r: 0, g: 0, b: 0, a: 1}
+  primaryColB: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 1}
+  secondaryColB: {r: 0, g: 0, b: 0, a: 1}
+  steepCol: {r: 0, g: 0, b: 0, a: 1}
+  numBiomePoints: 20
+  radiusMinMax: {x: 0.02, y: 0.1}
+  biomeWarpNoise:
+    numLayers: 4
+    lacunarity: 2
+    persistence: 0.5
+    scale: 1
+    elevation: 1
+    verticalShift: 0
+    offset: {x: 0, y: 0, z: 0}
+  detailNoise:
+    numLayers: 4
+    lacunarity: 2
+    persistence: 0.5
+    scale: 1
+    elevation: 1
+    verticalShift: 0
+    offset: {x: 0, y: 0, z: 0}
+  detailWarpNoise:
+    numLayers: 4
+    lacunarity: 2
+    persistence: 0.5
+    scale: 1
+    elevation: 1
+    verticalShift: 0
+    offset: {x: 0, y: 0, z: 0}
+  candidatePoolSize: 0.58
+  desiredNumCraterRays: 2
+  ejectaRaySeed: 0
+  ejectaRaysScale: 10
+  normalMapsFlat: []
+  normalMapsSteep: []
